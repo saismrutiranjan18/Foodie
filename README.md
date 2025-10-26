@@ -1,41 +1,57 @@
-# 🍽️ Foodie – Full-Stack Restaurant App
+<div align="left">
 
-A full-stack web application for browsing, listing, and managing a variety of food items. Built using React (Frontend), Express.js (Backend), and MongoDB.
+# 🍽️ **Foodie – Full-Stack Restaurant App**
 
-![screenshot of Foodie Homepage-lightmode](images/foodie-home-light.png)
-<sup>Homepage – Light Mode</sup>
+A full-stack web application for browsing, listing, and managing a variety of food items.  
+Built with **React (Frontend)**, **Express.js (Backend)**, and **MongoDB**.
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](./LICENSE)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](#-contributing)
+[![GSSoC'25](https://img.shields.io/badge/GSSoC-2025-orange.svg)](https://gssoc.girlscript.tech/)
+[![Dockerized](https://img.shields.io/badge/Containerized-Docker-blue.svg)](#-docker-setup-recommended)
+[![Stars](https://img.shields.io/github/stars/Abhishek2634/Foodie.svg?style=social)](https://github.com/Abhishek2634/Foodie)
+
 ---
 
-## 🌟GSSoc 
+![Foodie Homepage Light Mode](images/foodie-home-light.png)
+<sup>Homepage – Light Mode</sup>
+
+</div>
+
+---
+
+## 🌟 GSSoC
 
 ![GSSoC Logo](https://github.com/dimpal-yadav/Foodie/blob/main/images/GSSoC.png)
 
-🌟 **Exciting News...**
+🌟 **Exciting News!**
 
-🚀 This project is now an official part of GirlScript Summer of Code – GSSoC'25! 💻 We're thrilled to welcome contributors from all over India and beyond to collaborate, build, and grow *Foodie!* Let’s make learning and career development smarter – together! 🌟
+🚀 This project is now officially part of **GirlScript Summer of Code – GSSoC’25!** 💻  
+We’re thrilled to welcome contributors from across India and beyond to collaborate, build, and grow *Foodie!*  
 
-GSSoC is one of India’s **largest 3-month-long open-source programs** that encourages developers of all levels to contribute to real-world projects while learning, collaborating, and growing together.
+GSSoC is one of India’s **largest open-source programs**, empowering developers of all levels to contribute to real-world projects and grow together.
 
-🌈 With **mentorship, community support**, and **collaborative coding**, it's the perfect platform for developers to:
+🌈 With **mentorship**, **community support**, and **collaborative coding**, it’s the perfect platform to:
 
-- ✨ Improve their skills
-- 🤝 Contribute to impactful projects
-- 🏆 Get recognized for their work
-- 📜 Receive certificates and swag!
+- ✨ Improve your development skills  
+- 🤝 Contribute to impactful projects  
+- 🏆 Get recognized for your work  
+- 📜 Receive certificates and cool swag  
 
-🎉 **I can’t wait to welcome new contributors** from GSSoC 2025 to this Foodie project family! Let's build, learn, and grow together — one commit at a time. 
+🎉 **Welcome, GSSoC’25 Contributors!** Let’s build, learn, and grow — one commit at a time.
+
+---
+
+## 🚀 Quick Navigation
+
+> **📚 New to Foodie? Start Here:**  
+> 👉 **[LEARN.md](./LEARN.md)** – Architecture, setup, and contribution guide.
+
+> **⚡ Ready to dive in?**  
+> Jump to [Getting Started](#-getting-started) for quick setup instructions.
 
 ---
 
-# 🚀 Quick Navigation
-
-> **📚 New to Foodie? Complete Developer Guide**  
-> 👉 **[LEARN.md](./LEARN.md)** – Architecture, setup, contribution pathways, and everything you need to get started!
-
-> **⚡ Want to jump right in?**  
-> Skip to [Getting Started](#-getting-started) for quick setup instructions.
-
----
 ## 📑 Table of Contents
 
 - [🔧 Tech Stack](#-tech-stack)
@@ -53,84 +69,82 @@ GSSoC is one of India’s **largest 3-month-long open-source programs** that enc
 - [🧪 Linting](#-linting)
 - [🧰 Scripts](#-scripts)
 - [📝 Notes](#-notes)
+- [🧩 Common Issues & Fixes](#-common-issues--fixes)
 - [🤝 Contributing](#-contributing)
 - [📄 License](#-license)
 - [🔗 References](#-references)
 
 ---
+
 ## 🔧 Tech Stack
 
 ### 🖥️ Frontend
-
-- **React 18.3** – User interface
-- **Vite** – Fast build tool and dev server
-- **React Router DOM** – Client-side routing
-- **ESLint** – Linting and code style enforcement
+- **React 18.3** – User interface  
+- **Vite** – Lightning-fast build tool  
+- **React Router DOM** – Client-side routing  
+- **ESLint** – Code style enforcement  
 
 ### 🌐 Backend
-
-- **Node.js + Express** – REST API server
-- **CORS + JSON Middleware** – Cross-origin requests
-- **Multer** – File upload handling
-- **Modular API Routing** – Organized route structure
+- **Node.js + Express** – REST API server  
+- **CORS + JSON Middleware** – Cross-origin handling  
+- **Multer** – File upload management  
+- **Modular Routing** – Organized API structure  
 
 ### 🗄️ Database
-
-- **MongoDB** – NoSQL database for data storage
+- **MongoDB** – NoSQL database for scalable storage  
 
 ### 🐳 DevOps
+- **Docker** – Containerization  
+- **Docker Compose** – Multi-service orchestration  
 
-* **Docker** – Containerization for all services
-* **Docker Compose** – Multi-service orchestration
 ---
+
 ## 🚀 Getting Started
 
 ### Prerequisites
 
-Ensure you have the following installed:
+#### For Docker Setup (Recommended)
+- Docker Desktop  
+- Docker Compose  
 
-**For Docker Setup (Recommended):**
-
-- Docker Desktop
-- Docker Compose
-
-**For Manual Setup:**
-
-- Node.js (v16 or above)
-- npm or yarn
-- MongoDB (local or cloud)
+#### For Manual Setup
+- Node.js (v16 or above)  
+- npm or yarn  
+- MongoDB (local or cloud instance)  
 
 ---
+
 ### 📦 Installation
 
 #### 🐳 Docker Setup (Recommended)
 
-**One-command setup for the entire application:**
-
+**One-command setup for the entire app:**
 ```bash
 # Clone the repository
 git clone https://github.com/your-username/foodie.git
 cd foodie
 npm install
 
-# Start all services with Docker
+# Start all services
 docker-compose up --build
-```
+````
 
-**Access the application:**
+**Access the app:**
 
-- 🌐 **Frontend**: [http://localhost:3000](http://localhost:3000)
-- 🛠️ **Admin Panel**: [http://localhost:5173](http://localhost:5173)
-- 🔌 **Backend API**: [http://localhost:4000](http://localhost:4000)
-- 🗄️ **MongoDB**: localhost:27017
+* 🌐 Frontend: [http://localhost:3000](http://localhost:3000)
+* 🛠️ Admin Panel: [http://localhost:5173](http://localhost:5173)
+* 🔌 Backend API: [http://localhost:4000](http://localhost:4000)
+* 🗄️ MongoDB: localhost:27017
 
 **Docker Services:**
 
-* **foodie-frontend**: React app (Port 3000)
-* **foodie-admin**: Admin panel (Port 5173)
-* **foodie-backend**: Express API (Port 4000)
-* **foodie-mongodb**: MongoDB database (Port 27017)
+* `foodie-frontend` – React app
+* `foodie-admin` – Admin dashboard
+* `foodie-backend` – Express API
+* `foodie-mongodb` – Database
+
 ---
+
 #### 📦 Manual Installation
 
 ```bash
@@ -138,264 +152,198 @@ docker-compose up --build
 git clone https://github.com/your-username/foodie.git
 cd foodie
 
-# Install dependencies for all services
+# Install dependencies
 cd frontend && npm install && cd ..
 cd backend && npm install && cd ..
 cd admin && npm install && cd ..
 ```
+
 ---
+
 ### 🔧 Development Setup
 
 #### Docker Development
 
 ```bash
-# Start all services
 docker-compose up
-
-# Start in detached mode
+# or in detached mode
 docker-compose up -d
 
-# View logs for specific service
-docker-compose logs frontend
+# View logs
 docker-compose logs backend
-docker-compose logs admin
 ```
 
 #### Manual Development
 
-**Start Frontend:**
-
 ```bash
-cd frontend
-npm run dev
+# Start frontend
+cd frontend && npm run dev
+
+# Start admin panel
+cd admin && npm run dev
+
+# Start backend
+cd backend && npm run server
 ```
 
-**Start Admin Panel:**
+Ensure MongoDB is running locally:
 
 ```bash
-cd admin
-npm run dev
-```
-
-**Start Backend:**
-
-```bash
-cd backend
-npm run server
-```
-
-Server runs on `http://localhost:4000`
-
-**Start MongoDB:**
-
-```bash
-# Make sure MongoDB is running locally
 mongod
 ```
+
 ---
+
 ## 📁 Project Structure
 
 ```
-Foodie/                       # Root folder of the project
-├── .github/                   # GitHub related configurations (actions, issue templates)
-│   ├── ISSUE_TEMPLATE/        # Templates for issues
-│   └── workflows/             # GitHub Actions workflows
-├── .vite/                     # Vite internal dependencies
-│   └── deps/                  # Vite dependency files
-├── admin/                     # Admin panel related code
-├── backend/                   # Backend server code
-├── frontend/                  # Frontend client code
-├── images/                    # Project images
-├── .dockerignore              # Files/folders to ignore in Docker
-├── .gitignore                 # Files/folders to ignore in Git
-├── AUTHENTICATION_SETUP.md    # Guide/setup for authentication
-├── CODE_OF_CONDUCT.md         # Code of conduct for contributors
-├── CONTRIBUTING.md            # Guidelines for contributing to the project
-├── LEARN.md                   # Learning resources/documentation
-├── LICENSE                    # License file
-├── README.md                  # Project readme
-├── SECURITY.md                # Security guidelines
-├── docker-compose.yml         # Docker Compose configuration
-├── package-lock.json          # NPM package lock file
-├── package.json               # NPM package configuration
-└── vercel.json                # Vercel deployment configuration
-
+Foodie/
+├── .github/                # GitHub configurations & workflows
+│   ├── ISSUE_TEMPLATE/
+│   └── workflows/
+├── admin/                  # Admin panel code
+├── backend/                # Backend API
+├── frontend/               # Frontend client
+├── images/                 # Project images
+├── docker-compose.yml      # Docker setup
+├── CONTRIBUTING.md
+├── LEARN.md
+├── LICENSE
+└── README.md
 ```
+
 ---
+
 ## 🐳 Docker Commands
 
-### Basic Operations
-
 ```bash
-# Build and start all services
+# Build & start services
 docker-compose up --build
 
-# Start services in background
+# Start in background
 docker-compose up -d
 
-# Stop all services
+# Stop services
 docker-compose down
 
-# Stop and remove volumes (⚠️ deletes database data)
+# Remove volumes (⚠️ Deletes DB)
 docker-compose down -v
-
-# Restart specific service
-docker-compose restart backend
 
 # View running containers
 docker-compose ps
 ```
 
-### Development Commands
-
-```bash
-# View logs for all services
-docker-compose logs
-
-# View logs for specific service
-docker-compose logs -f frontend
-
-# Execute commands in running container
-docker-compose exec backend npm install new-package
-
-# Rebuild specific service
-docker-compose build backend
-```
-
-### Database Management
-
-```bash
-# Access MongoDB shell
-docker-compose exec mongodb mongosh
-
-# Backup database
-docker-compose exec mongodb mongodump --out /backup
-
-# View MongoDB logs
-docker-compose logs mongodb
-```
 ---
 
 ## 🧪 Linting
 
-ESLint is pre-configured with React and Hooks rules for frontend and admin.
-
 ```bash
-# Frontend linting
+# Frontend
 cd frontend && npm run lint
 
-# Admin linting
+# Admin
 cd admin && npm run lint
 ```
+
 ---
+
 ## 🧰 Scripts
 
-### Frontend & Admin Scripts
+### Frontend & Admin
 
-| Command           | Description                   |
-| ----------------- | ----------------------------- |
-| `npm run dev`     | Start Vite development server |
-| `npm run build`   | Build for production          |
-| `npm run preview` | Preview production build      |
-| `npm run lint`    | Run ESLint checks             |
+| Command           | Description              |
+| ----------------- | ------------------------ |
+| `npm run dev`     | Start Vite dev server    |
+| `npm run build`   | Build for production     |
+| `npm run preview` | Preview production build |
+| `npm run lint`    | Run ESLint checks        |
 
-### Backend Scripts
+### Backend
 
-| Command          | Description                           |
-| ---------------- | ------------------------------------- |
-| `npm start`      | Start production server               |
-| `npm run server` | Start development server with nodemon |
+| Command          | Description                |
+| ---------------- | -------------------------- |
+| `npm start`      | Start production server    |
+| `npm run server` | Start dev server (nodemon) |
+
 ---
 
 ## 📝 Notes
 
-- Make sure MongoDB is running locally or update `connectDB()` in `config/db.js` accordingly.
-- You can update the backend routes via `routes/foodRoute.js`.
+* Ensure MongoDB is running before starting the backend.
+* Update `connectDB()` in `backend/config/db.js` if using remote DB.
 
-### Environment Variables
+**Environment Variables:**
 
-The application uses the following environment variables:
+| Service  | Variable                            | Description          |
+| -------- | ----------------------------------- | -------------------- |
+| Backend  | `MONGODB_URI`, `JWT_SECRET`, `PORT` | DB & API config      |
+| Frontend | `REACT_APP_API_URL`                 | Backend API URL      |
+| Admin    | `VITE_API_URL`                      | Backend API for Vite |
 
-**Backend:**
+**File Uploads:**
+Multer stores uploaded files in `backend/uploads/`.
+Docker mounts this folder for persistence.
 
-- `MONGODB_URI`: MongoDB connection string
-- `JWT_SECRET`: Secret key for JWT tokens
-- `PORT`: Server port (default: 4000)
+---
 
-**Frontend:**
+## 🧩 Common Issues & Fixes
 
-- `REACT_APP_API_URL`: Backend API URL
+| Issue                               | Possible Fix                                           |
+| ----------------------------------- | ------------------------------------------------------ |
+| ❌ MongoDB connection fails          | Ensure Docker is running, or check your `MONGODB_URI`. |
+| 🐳 Docker build error               | Run `docker system prune -a` and rebuild.              |
+| 🚫 Port conflict                    | Stop previous containers: `docker-compose down`.       |
+| ⚙️ “npm not found” inside container | Run `docker-compose build` to reinstall dependencies.  |
 
-**Admin:**
-
-- `VITE_API_URL`: Backend API URL for Vite
-
-### Database Configuration
-
-- **Docker**: MongoDB runs automatically with authentication
-  - Username: `admin`
-  - Password: `password123`
-  - Database: `foodie`
-- **Manual**: Update `connectDB()` in `backend/config/db.js`
-
-### File Uploads
-
-* Backend handles file uploads via Multer
-* Files are stored in `backend/uploads/` directory
-* Docker setup includes volume mounting for persistence
 ---
 
 ## 🤝 Contributing
 
-We welcome contributions to the Foodie project! If you find this project helpful, consider starring the repo or opening an issue.
-
-- 📖 Help improve documentation
-- 🚀 For more info, go to [CONTRIBUTING.md](CONTRIBUTING.md)
+We welcome contributions to **Foodie**! ⭐
+If you find this project useful, consider **starring** it or submitting a **PR**.
 
 ### Development Workflow
-1. Fork the repository
+
+1. Fork the repo
 2. Create a feature branch
-3. Use Docker for consistent development environment
-4. Test your changes with `docker-compose up --build`
-5. Submit a pull request
+3. Use Docker for consistency
+4. Test with `docker-compose up --build`
+5. Submit a pull request 🚀
+
+See [CONTRIBUTING.md](./CONTRIBUTING.md) for detailed steps.
 
 ---
 
-## Contributor
+## 💖 Contributors
 
-A heartfelt thank you to all the contributors who have dedicated their time and effort to make this project a success.  
-Your contributions—whether it’s code, design, testing, or documentation—are truly appreciated! 🚀
-
-#### Thanks to all the wonderful contributors 💖
+A heartfelt thanks to everyone who has contributed!
 
 <a href="https://github.com/Abhishek2634/Foodie/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=Abhishek2634/Foodie" />
 </a>
 
-#### See full list of contribution from contributor [Contributor Graph](https://github.com/Abhishek2634/Foodie/graphs/contributors)
-
 ---
 
 ## 📄 License
-This project is licensed under the [MIT License](./LICENSE)
 
-- [LinkedIn](https://www.linkedin.com/in/abhishekfarswal/?originalSubdomain=in)  
-- [Twitter](https://x.com/Abhishek899620)  
-- [Instagram](https://www.instagram.com/abhishekfarswal/)
-  
----
-## Contact 📝
-If you have any questions, feedback, or want to collaborate, feel free to reach out to the project maintainer:
-
-**Maintainer:** Abhishek Farshwal
-**GitHub:** [Foodie](https://github.com/Abhishek2634)  
-
-- [LinkedIn](https://www.linkedin.com/in/abhishekfarswal/?originalSubdomain=in)  
-- [Twitter](https://x.com/Abhishek899620)  
-- [Instagram](https://www.instagram.com/abhishekfarswal/)
+This project is licensed under the **[MIT License](./LICENSE)**.
 
 ---
+
+## 📬 Contact
+
+**Maintainer:** [Abhishek Farswal](https://github.com/Abhishek2634)
+
+📎 **Connect with me:**
+
+* [LinkedIn](https://www.linkedin.com/in/abhishekfarswal/?originalSubdomain=in)
+* [Twitter/X](https://x.com/Abhishek899620)
+* [Instagram](https://www.instagram.com/abhishekfarswal/)
+
+---
+
 ## 🔗 References
+
 * [React](https://reactjs.org/)
 * [Vite](https://vitejs.dev/)
 * [Express](https://expressjs.com/)
