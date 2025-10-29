@@ -1,41 +1,57 @@
-# 🍽️ Foodie – Full-Stack Restaurant App
+<div align="left">
 
-A full-stack web application for browsing, listing, and managing a variety of food items. Built using React (Frontend), Express.js (Backend), and MongoDB.
+# 🍽️ **Foodie – Full-Stack Restaurant App**
 
-![screenshot of Foodie Homepage-lightmode](images/foodie-home-light.png)
-<sup>Homepage – Light Mode</sup>
+A full-stack web application for browsing, listing, and managing a variety of food items.  
+Built with **React (Frontend)**, **Express.js (Backend)**, and **MongoDB**.
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](./LICENSE)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](#-contributing)
+[![GSSoC'25](https://img.shields.io/badge/GSSoC-2025-orange.svg)](https://gssoc.girlscript.tech/)
+[![Dockerized](https://img.shields.io/badge/Containerized-Docker-blue.svg)](#-docker-setup-recommended)
+[![Stars](https://img.shields.io/github/stars/Abhishek2634/Foodie.svg?style=social)](https://github.com/Abhishek2634/Foodie)
+
 ---
 
-## 🌟GSSoc 
+![Foodie Homepage Light Mode](images/foodie-home-light.png)
+<sup>Homepage – Light Mode</sup>
+
+</div>
+
+---
+
+## 🌟 GSSoC
 
 ![GSSoC Logo](https://github.com/dimpal-yadav/Foodie/blob/main/images/GSSoC.png)
 
-🌟 **Exciting News...**
+🌟 **Exciting News!**
 
-🚀 This project is now an official part of GirlScript Summer of Code – GSSoC'25! 💻 We're thrilled to welcome contributors from all over India and beyond to collaborate, build, and grow *Foodie!* Let’s make learning and career development smarter – together! 🌟
+🚀 This project is now officially part of **GirlScript Summer of Code – GSSoC’25!** 💻  
+We’re thrilled to welcome contributors from across India and beyond to collaborate, build, and grow *Foodie!*  
 
-GSSoC is one of India’s **largest 3-month-long open-source programs** that encourages developers of all levels to contribute to real-world projects while learning, collaborating, and growing together.
+GSSoC is one of India’s **largest open-source programs**, empowering developers of all levels to contribute to real-world projects and grow together.
 
-🌈 With **mentorship, community support**, and **collaborative coding**, it's the perfect platform for developers to:
+🌈 With **mentorship**, **community support**, and **collaborative coding**, it’s the perfect platform to:
 
-- ✨ Improve their skills
-- 🤝 Contribute to impactful projects
-- 🏆 Get recognized for their work
-- 📜 Receive certificates and swag!
+- ✨ Improve your development skills  
+- 🤝 Contribute to impactful projects  
+- 🏆 Get recognized for your work  
+- 📜 Receive certificates and cool swag  
 
-🎉 **I can’t wait to welcome new contributors** from GSSoC 2025 to this Foodie project family! Let's build, learn, and grow together — one commit at a time. 
+🎉 **Welcome, GSSoC’25 Contributors!** Let’s build, learn, and grow — one commit at a time.
+
+---
+
+## 🚀 Quick Navigation
+
+> **📚 New to Foodie? Start Here:**  
+> 👉 **[LEARN.md](./LEARN.md)** – Architecture, setup, and contribution guide.
+
+> **⚡ Ready to dive in?**  
+> Jump to [Getting Started](#-getting-started) for quick setup instructions.
 
 ---
 
-# 🚀 Quick Navigation
-
-> **📚 New to Foodie? Complete Developer Guide**  
-> 👉 **[LEARN.md](./LEARN.md)** – Architecture, setup, contribution pathways, and everything you need to get started!
-
-> **⚡ Want to jump right in?**  
-> Skip to [Getting Started](#-getting-started) for quick setup instructions.
-
----
 ## 📑 Table of Contents
 
 - [🔧 Tech Stack](#-tech-stack)
@@ -53,36 +69,36 @@ GSSoC is one of India’s **largest 3-month-long open-source programs** that enc
 - [🧪 Linting](#-linting)
 - [🧰 Scripts](#-scripts)
 - [📝 Notes](#-notes)
+- [🧩 Common Issues & Fixes](#-common-issues--fixes)
 - [🤝 Contributing](#-contributing)
 - [📄 License](#-license)
 - [🔗 References](#-references)
 
 ---
+
 ## 🔧 Tech Stack
 
 ### 🖥️ Frontend
-
-- **React 18.3** – User interface
-- **Vite** – Fast build tool and dev server
-- **React Router DOM** – Client-side routing
-- **ESLint** – Linting and code style enforcement
+- **React 18.3** – User interface  
+- **Vite** – Lightning-fast build tool  
+- **React Router DOM** – Client-side routing  
+- **ESLint** – Code style enforcement  
 
 ### 🌐 Backend
-
-- **Node.js + Express** – REST API server
-- **CORS + JSON Middleware** – Cross-origin requests
-- **Multer** – File upload handling
-- **Modular API Routing** – Organized route structure
+- **Node.js + Express** – REST API server  
+- **CORS + JSON Middleware** – Cross-origin handling  
+- **Multer** – File upload management  
+- **Modular Routing** – Organized API structure  
 
 ### 🗄️ Database
-
-- **MongoDB** – NoSQL database for data storage
+- **MongoDB** – NoSQL database for scalable storage  
 
 ### 🐳 DevOps
+- **Docker** – Containerization  
+- **Docker Compose** – Multi-service orchestration  
 
-* **Docker** – Containerization for all services
-* **Docker Compose** – Multi-service orchestration
 ---
+
 ## 🚀 Getting Started
 
 ### Prerequisites
