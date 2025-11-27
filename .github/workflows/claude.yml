@@ -21,23 +21,22 @@ jobs:
     runs-on: ubuntu-latest
     
     permissions:
-      contents: write       # CHANGED: 'write' needed to push code fixes
-      pull-requests: write  # CHANGED: 'write' needed to comment on PRs
-      issues: write         # CHANGED: 'write' needed to comment on Issues
-      id-token: write       # Required for OIDC/Claude Auth
-      actions: read         # specific permission to read workflow runs
+      contents: write
+      pull-requests: write
+      issues: write
+      id-token: write
+      actions: read
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0    # CHANGED: '0' is highly recommended for AI so it can see full context/history
+          fetch-depth: 0
 
       - name: Run Claude Code
         id: claude
         uses: anthropics/claude-code-action@v1
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # ADDED: Required for Claude to read the comment and use 'gh' CLI
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
-          # Note: 'additional_permissions' input removed as it is not valid here.
